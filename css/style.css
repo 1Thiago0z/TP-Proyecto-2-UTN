@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #411225;
+    background-color: rgb(32, 32, 32);
     color: white;
     padding: 1em 0;
 }
@@ -27,6 +27,12 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+nav ul li a:hover {
+    color: rgb(161, 21, 126);
+    transition: all 0.5s ease;
 }
 
 h1, .subtitulo {
@@ -43,7 +49,7 @@ h1, .subtitulo {
 }
 
 footer {
-    background-color: #020202;
+    background-color: rgb(32, 32, 32);
     color: white;
     text-align: center;
     padding: 1em 0;
@@ -53,7 +59,7 @@ footer {
 }
 
 .personajes {
-    background-color: rgb(90, 75, 89);
+    background-color: rgb(0, 0, 0);
     width: 50%;
     margin: 0 auto;
     border-radius: 10px;
@@ -69,7 +75,7 @@ footer {
 }
 
 .casas {
-    background-color: rgb(90, 75, 89);
+    background-color: rgb(0, 0, 0);
     width: 50%;
     margin: 0 auto;
     border-radius: 10px;
@@ -85,7 +91,7 @@ footer {
 }
 
 .hechizos {
-    background-color: rgb(90, 75, 89);
+    background-color: rgb(0, 0, 0);
     width: 50%;
     margin: 0 auto;
     border-radius: 10px;
@@ -112,7 +118,7 @@ img {
 h2 {
     text-align: center;
     font-family: 'Harry Potter', sans-serif;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .personajes, p {
