@@ -2,6 +2,7 @@ fetch("https://hp-api.onrender.com/api/characters")
 
 .then(response => response.json())
 
+
 .then(data => {
 const $grid = document.querySelector(".grid");
 data.forEach(character => {

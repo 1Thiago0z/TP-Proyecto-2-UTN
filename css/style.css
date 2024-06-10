@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,11 +7,13 @@ body {
     height: 300vh;
 }
 
+
 header {
     background-color: rgb(32, 32, 32);
     color: white;
     padding: 1em 0;
 }
+
 
 nav ul {
     list-style: none;
@@ -20,9 +23,13 @@ nav ul {
     font-family: 'Harry Potter', sans-serif;
 }
 
+
+
 nav ul li {
     margin: 0 1em;
 }
+
+
 
 nav ul li a {
     color: white;
@@ -30,10 +37,12 @@ nav ul li a {
     transition: all 0.5s ease;
 }
 
+
 nav ul li a:hover {
     color: rgb(161, 21, 126);
     transition: all 0.5s ease;
 }
+
 
 h1, .subtitulo {
     padding-top: 20px;
@@ -42,11 +51,23 @@ h1, .subtitulo {
     font-family: 'Harry Potter', sans-serif;
 }
 
+
 .intro {
     max-width: 800px;
     margin: 0 auto;
     font-family: 'Harry Potter', sans-serif;
 }
+
+
+hr {
+    width: 80%;
+}
+
+
+.hr2 {
+    width: 50%;
+}
+
 
 footer {
     background-color: rgb(32, 32, 32);
@@ -57,6 +78,7 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
 
 .personajes {
     background-color: rgb(0, 0, 0);
@@ -70,9 +92,11 @@ footer {
     -moz-box-shadow: 10px 10px 13px -5px rgba(0,0,0,0.75);
 }
 
+
 .personajes ul {
     list-style: none;
 }
+
 
 .casas {
     background-color: rgb(0, 0, 0);
@@ -86,9 +110,11 @@ footer {
     -moz-box-shadow: 10px 10px 13px -5px rgba(0,0,0,0.75);
 }
 
+
 .casas ul {
     list-style: none;
 }
+
 
 .hechizos {
     background-color: rgb(0, 0, 0);
@@ -105,21 +131,25 @@ footer {
     list-style: none;
 }
 
+
 .personajes {
     align-items: center;
     gap: 20px; 
 }
+
 
 img {
     width: 100%;
     border-radius: 20px;
 }
 
+
 h2 {
     text-align: center;
     font-family: 'Harry Potter', sans-serif;
     color: rgb(255, 255, 255);
 }
+
 
 .personajes, p {
     color: white;
@@ -131,10 +161,15 @@ h2 {
 
 
 
+/* seccion pagina personajes */
+
+
+
 .characters {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 
 
 .grid {
@@ -143,6 +178,7 @@ h2 {
     gap: 1em;
     padding: 1em;
 }
+
 
 .card {
     background-color: #000000;
@@ -158,10 +194,13 @@ h2 {
     cursor: pointer;
 }
 
+
+
 .card:hover {
     transform: scale(1.01);
     transition: all 0.5s ease;
 }   
+
 
 .card img {
     width: 100%;
@@ -170,13 +209,20 @@ h2 {
     margin-bottom: 1em;
 }
 
+
 .card h3 {
     font-size: 20px;
     margin-bottom: 0.5em;
     color: rgb(161, 21, 126)
 }
 
+
 .card p {
     font-size: 20px;
     color: rgb(255, 255, 255);
 }
+
+
+footer p {
+    font-family: 'Harry Potter', sans-serif;
+} 
